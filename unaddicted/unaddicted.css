@@ -1,0 +1,198 @@
+/*
+
+  /* additional sections */
+  #highroad {
+    background: url("./img/highroad.jpeg");
+    background-size: cover; 
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    
+  }
+
+ mark
+  {
+    color: tomato;
+  }
+
+  .container {
+    
+    height: 30rem;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-bottom:50px;
+    
+  }
+  .color-overlay {
+/*    position: absolute;  */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+    
+}
+carousel-item{
+
+  background:#777;
+  color: white;
+  /*background-position: center;*/
+  background-size:cover;
+
+}
+
+
+
+#symptom1 {
+  background: url("./img/annie-spratt-DDyMG1LZaHo-unsplash.jpeg");
+}
+#symptom2 {
+  background: url("./img/alcoholic.jpeg");
+}
+#symptom3 {
+  background: url("./img/engin-akyurt-AjMXxHwxW_k-unsplash.jpeg");
+}
+
+
+@media (max-width: 768px) {
+    .highroad {
+        height: 20vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
+
+ /* #hmobilehome {
+    background: url("./img/highroad.jpeg") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    padding-top: 42%;
+    position: relative;
+    width: 100vw auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    
+  } */
+
+/* Load a smaller image for smaller screens 
+@media only screen and (max-width:970px) {
+  :root {
+    background: url('saltintheirtearsmini.webp');
+   background: url('saltintheirtears.jpg');
+  }
+}
+/* Smallest image for phone screens *
+@media only screen and (max-width:500px) {
+  #home {
+  background: url('saltintheirtearsmini.webp');
+  background: url('saltintheirtears.jpg');
+  }
+} *
+
+#home {
+  background-image: 
+      -webkit-image-set(
+        url("./img/saltintheirtears500.map") 1x,
+        url("./img/saltintheirtears1.5k.jpg") 2x);
+      background-image: image-set(
+        url("./img/saltintheirtears500.webp") 1x, 
+        url("./img/saltintheirtearsk1.5.jpg") 2x) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+
+  
+
+  /*
+  #services {
+    background-color: #306d9f;
+    color: #ffffff;
+  }
+  #services .glyphicon {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 60px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    vertical-align: middle;
+    width: 140px;
+  }
+
+  #information {
+    background: url("./img/volunteers.jpg") no-repeat center center fixed;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  }
+
+/* Load a smaller image for smaller screens */
+/*@media only screen and (max-width:970px) {
+  #information {
+   background: url('volunteers.webp');
+   background: url('volunteersjpg');
+  }
+}
+/* Smallest image for phone screens *
+@media only screen and (max-width:500px) {
+  #information {
+   background: url('volunteers.webp');
+    background: url('volunteers.jpg');
+  }
+}
+
+@media (max-width: 500px) {
+  #information {  
+    background: url("volunteersmini.webp") no-repeat center center fixed;  
+  }   */
+
+  #information .panel {
+    opacity: 0.85;
+  }
+  
+  footer {
+    padding: 20px 0;
+  }
+  footer .glyphicon {
+    color: #333333;
+    font-size: 60px;
+  }
+  footer .glyphicon:hover {
+    color: #306d9f;
+  }
+  .thlogo
+    {
+      background-color: black;
+      width: 200px;
+      height: 250px;
+      
+      
+      border: 1px solid blue;
+      box-sizing: border-box;
+      color: white;
+      position: absolute;
+      top: 800px; 
+    }
+    .help
+      {
+        color: #3F7FBF;
+      }
+ 
