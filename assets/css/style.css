@@ -1264,7 +1264,7 @@ hr{
     -webkit-box-shadow:0 10px 15px rgba(25,25,25,0.1)
 }
 #scrollUp,#back-top{
-    background:#FFEA01;
+    background: #0a0a0a;
     height:50px;
     width:50px;
     right:31px;
@@ -2548,21 +2548,21 @@ hr{
     z-index:9
 }
 .header-area .header-sticky.sticky-bar{
-    background:#0a0a0a
+    background:#0a0a0a;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .header-area .header-sticky.sticky-bar{
-        padding:15px 0px
+        padding:15px;
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px){
     .header-area .header-sticky.sticky-bar{
-        padding:15px 20px
+        padding:15px;
     }
 }
 @media (max-width: 575px){
     .header-area .header-sticky.sticky-bar{
-        padding:15px 0px
+        padding:15px;
     }
 }
 .mobile_menu{

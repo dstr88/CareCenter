@@ -12,6 +12,9 @@
 ul.navbar-nav {
   margin: 0 !important;
 }
+.navbar-collapse{
+  box-shadow:none;
+}
 
 @media (max-width: 768px) {
   .header-container {
