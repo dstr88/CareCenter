@@ -1,0 +1,29 @@
+.header-container {
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.header-area {
+  background: #202020;
+}
+ul.navbar-nav {
+  margin: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 10px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link:last-child {
+    padding-right: 0;
+  }
+}
