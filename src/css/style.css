@@ -3490,25 +3490,25 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-area .hero-caption {
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-area .hero-caption {
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider-area .hero-caption {
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
 }
 
 @media (max-width: 575px) {
   .slider-area .hero-caption {
-    padding-top: 70px;
+    /* padding-top: 70px; */
   }
 }
 
@@ -3526,25 +3526,25 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-area .hero-caption h1 {
-    font-size: 38px;
+    font-size: 38px!important;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-area .hero-caption h1 {
-    font-size: 40px;
+    font-size: 40px!important;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider-area .hero-caption h1 {
-    font-size: 40px;
+    font-size: 40px!important;
   }
 }
 
 @media (max-width: 575px) {
   .slider-area .hero-caption h1 {
-    font-size: 35px;
+    font-size: 35px!important;
   }
 }
 

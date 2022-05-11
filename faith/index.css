@@ -1,0 +1,57 @@
+aside img{
+    width:100%;
+    min-height:300px;
+}
+aside a{
+    color:#000; 
+}
+.primary-img{
+    margin-bottom: 50px;
+}
+.sidebar{
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.iframe-wrapper{
+    height:100%;
+    width:100%;
+    padding:0;
+    max-height:360px!important;
+    margin:0;
+}
+aside iframe, .cat-list{
+    height:100%;
+    min-height:360px!important;
+    width: 100%;
+    position:relative;
+    
+}
+aside li{
+    margin:30px 0;
+}
+
+/* sets width, can be changed as per need */
+.video-outer {
+	width: 100%;
+}
+
+/* padding-top sets the overall height */
+.video-inner {
+    padding-top: 56.25%;
+    height: 0px;
+    position: relative;
+}
+
+/* final iframe uses 100% width & height */
+.iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.blog_left_sidebar{
+    background-color:#ffffff;
+    padding:30px;
+}
