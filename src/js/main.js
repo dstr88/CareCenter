@@ -301,3 +301,51 @@ const myDropdown = document.getElementById('dropdownMenuButton1');
   console.log('Dropdown shown');
 });
 */
+
+
+// Typing Text
+
+let bannerText = new Array ( "Don't tell them ", "Jesus Loves them..." , "until you are ready to love them too." );
+
+var iSpeed = 50; // time delay of print out
+var iIndex = 0; // start printing array at this position
+var iArrLength = bannerText[1].length; // the length of the text array
+var iScrollAt = 20; // start scrolling up at this many lines
+ 
+var iTextPos = 0; // initialise text position
+var sContents = ''; // initialise contents variable
+var iRow; // initialise current row
+
+function typewriter()
+{
+ sContents =  ' ';
+ iRow = Math.max(0, iIndex-iScrollAt);
+ var destination = document.getElementById("typedtext");
+ 
+ while ( iRow < iIndex ) {
+  sContents += bannerText[iRow++] + '<br />';
+ }
+ destination.innerHTML = sContents + bannerText[iIndex].substring(0, iTextPos) ;
+ if ( iTextPos++ == iArrLength ) {
+  iTextPos = 0;
+  iIndex++;
+  if ( iIndex != bannerText.length ) {
+   iArrLength = bannerText[iIndex].length;
+   setTimeout("typewriter()", 100);
+  }
+ } else {
+  setTimeout("typewriter()", iSpeed);
+ }
+}
+
+
+typewriter();
+
+function afterType(){
+  setTimeout(function(){
+    $(".after-typed").fadeIn(100);
+  }, 5000);
+}
+
+afterType();
+

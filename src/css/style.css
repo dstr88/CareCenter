@@ -4734,14 +4734,14 @@ hr {
   transition: 0.4s;
 }
 
-.blog_area a:hover,
+/* .blog_area a:hover,
 .blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #ffea01 0%, #ffea01 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
   transition: 0.4s;
-}
+} */
 
 .single-blog {
   overflow: hidden;
@@ -5195,7 +5195,8 @@ hr {
 }
 
 .blog_details a:hover {
-  color: #f15b43;
+  color: red;
+  text-decoration: underline;
 }
 
 .blog_details h2 {

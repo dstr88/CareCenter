@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.hero-background{
+    width:100%;
+    background: linear-gradient( to right, #FFEA01 0%, #FFEA01 33%, rgba(9, 11, 59, 0.16), rgba(9, 11, 59, 0.16) );
+    height:100%;
+    position:relative;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggler:focus{
+    outline:none;
+    box-shadow: none!important;
+}
+
+.cta-wrapper{
+    background-color: #ffea01;
+    padding: 20px 0;
+}
+.cta-wrapper h4{
+    margin:0;
+}
+.cta-wrapper h4 a {
+    color:red;
+
+}
+.cta-wrapper h4:hover a{
+    text-decoration: underline;
+}
