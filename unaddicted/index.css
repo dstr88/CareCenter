@@ -1,0 +1,114 @@
+.section-parallax {
+  background: url("./img/highroad.jpeg") no-repeat center center fixed;
+  height: 100vh;
+  position: relative;
+  width: 100vw auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
+  width: 100%;
+  display: flex;
+}
+.parallax-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#typedtext {
+  font-size: 72px;
+  text-transform: capitalize;
+  color: #fff;
+  line-height: 5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.after-typed {
+  color: #fff;
+  font-size: 18px;
+  display: none;
+}
+.typed-bg {
+  background-color: #202020;
+  padding: 15px !important;
+}
+.section-slider {
+  background-color: #202020;
+}
+.section-marketing,
+.section-slider {
+  padding: 50px 0;
+}
+.section-slider h2,
+.section-slider p {
+  color: #fff;
+}
+.slider img {
+  object-fit: cover;
+  object-position: top center;
+  height: 100%;
+  width: 100%;
+  min-height: 700px;
+  max-height: 700px;
+}
+.slider-content {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.find-us-heading {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.find-us {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 16px;
+}
+.find-us-wrapper a {
+  color: #000;
+  font-weight: 500;
+}
+.find-us-wrapper a:hover {
+  text-decoration: underline;
+}
+
+/* Slick Slider Custom CSS */
+.slick-next {
+  right: -30px !important;
+}
+.slick-prev {
+  left: -30px !important;
+}
+.slick-dots li button:before,
+.slick-dots li button:after {
+  color: #fff !important;
+}
+/* Slick Slider Custom CSS */
+
+@media (max-width: 576px) {
+  #typedtext {
+    font-size: 36px;
+    line-height: 3rem;
+  }
+  .after-typed {
+    padding: 0;
+  }
+
+  .slick-next,
+  .slick-prev {
+    display: none !important;
+  }
+  .find-us {
+    border-radius: 0;
+  }
+  .section-marketing {
+    padding-bottom: 0;
+  }
+}

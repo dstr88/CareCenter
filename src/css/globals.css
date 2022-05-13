@@ -1,33 +1,106 @@
 html {
-    scroll-behavior: smooth;
-  }
-
-.hero-background{
-    width:100%;
-    background: linear-gradient( to right, #FFEA01 0%, #FFEA01 33%, rgba(9, 11, 59, 0.16), rgba(9, 11, 59, 0.16) );
-    height:100%;
-    position:relative;
-    min-height: 320px;
-    display: flex;
-    align-items: center;
+  scroll-behavior: smooth;
 }
 
-.navbar-toggler:focus{
-    outline:none;
-    box-shadow: none!important;
+.fas.fa-arrow-right {
+  margin-left: 10px;
+}
+.hero-background {
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #ffea01 0%,
+    #ffea01 33%,
+    rgba(9, 11, 59, 0.16),
+    rgba(9, 11, 59, 0.16)
+  );
+  height: 100%;
+  position: relative;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
 }
 
-.cta-wrapper{
-    background-color: #ffea01;
-    padding: 20px 0;
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none !important;
 }
-.cta-wrapper h4{
-    margin:0;
+
+.cta-wrapper {
+  background-color: #ffea01;
+  padding: 20px 0;
+}
+.cta-wrapper h4 {
+  margin: 0;
 }
 .cta-wrapper h4 a {
-    color:red;
+  color: red;
+}
+.cta-wrapper h4:hover a {
+  text-decoration: underline;
+}
 
+/* Floating Social Media Bar Style Starts Here */
+
+.fl-fl {
+  background: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 195px;
+  position: fixed;
+  left: -155px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  height: 100%;
+  max-height: 50px;
 }
-.cta-wrapper h4:hover a{
-    text-decoration: underline;
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
 }
+
+.fl-fl:hover {
+  left: 0;
+  width: auto;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px !important;
+  vertical-align: top !important;
+}
+
+.float-fb {
+  top: 700px;
+}
+
+.float-tw {
+  top: 755px;
+}
+
+.float-gp {
+  top: 810px;
+}
+
+.float-sm .fas {
+  color: #fff;
+  font-size: 24px;
+  margin: 6px 5px 6px 15px;
+}
+.float-sm .fl-fl {
+  display: flex;
+  justify-content: space-between;
+}
+/* Floating Social Media Bar Style Ends Here */
